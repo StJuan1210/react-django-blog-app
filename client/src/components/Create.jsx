@@ -29,7 +29,7 @@ const Create = () => {
 
 	return (
 		<div className="create" onSubmit={handleSubmit}>
-			<h2 className='stat-value centerText'>Create Blog</h2>
+			<h2 className='stat-value centerText'>Create Article</h2>
 			<form>
 
 				<label className="label">
@@ -62,8 +62,8 @@ const Create = () => {
 					onChange={(e) => setSelectedImage(e.target.value)}
       				/>
 
-				{ !isPending && <button className="btn btn-primary">Create Blog</button> }
-				{ isPending && <button className="btn loading">Adding Blog...</button> }
+				{ !isPending && <button className="btn btn-primary">Create Article</button> }
+				{ isPending && <button className="btn loading">Adding Article...</button> }
 			</form>
 		</div>
 	);

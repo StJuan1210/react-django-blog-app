@@ -55,7 +55,7 @@ const Update = () => {
 		} else {
 			return (
 				<div className="create" onSubmit={handleSubmit}>
-					<h2 className='stat-value centerText'>Update Blog</h2>
+					<h2 className='stat-value centerText'>Update Article</h2>
 					<form>
 
 						<label className="label">
@@ -89,8 +89,8 @@ const Update = () => {
 							className="input input-bordered w-full max-w-xs"
 						/>
 
-						{ !isPending && <button className="btn btn-primary">Update Blog</button> }
-						{ isPending && <button className="btn loading">Updating Blog...</button> }
+						{ !isPending && <button className="btn btn-primary">Update Article</button> }
+						{ isPending && <button className="btn loading">Updating Article...</button> }
 					</form>
 				</div>
 			)
