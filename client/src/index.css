@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+}
+.navbar p, .navbar button {
+	display: inline;
+}
+.navbar button {
+	font-size: 16px;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	font-weight: 500;
+}
+/* .navbar a {
+	font-weight: 700;
+} */
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.blog-preview a {
+	text-decoration: none;
+}
+
+/* blog details page */
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.padding-right {
+	padding-right: 1rem;
+}
+/* form h2 {
+	text-align: center;
+} */
+.centerText {
+	text-align: center;
+}
+.not-found {
+	text-align: center;
+}
+.error-message {
+	color: red;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.navright{
+  margin-left: 65%;
+}
+.navrightonlog{
+  margin-left: 60%;
+}
+.imgHome {
+	width: 50%;
+	height: 50%;
+	object-fit: contain;
+}
