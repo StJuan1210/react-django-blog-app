@@ -1,5 +1,6 @@
 # react-django-blog-app
 A React frontend and django backend based blog app
+You can check the app [here](https://blog-app-juanm-stjuan1210.vercel.app/)
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/86282256/171789005-cb6c061a-550e-4852-abb4-2486c1b47778.png)
