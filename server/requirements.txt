@@ -1,0 +1,11 @@
+dj-database-url
+Django
+django-autoslug
+django-cors-headers
+django-heroku
+djangorestframework
+djangorestframework-simplejwt
+python-dotenv
+gunicorn
+psycopg2
+whitenoise
